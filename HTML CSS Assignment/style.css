@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+main {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.headersection .navbar {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  background-color: rgb(243, 117, 117);
+  height: 3rem;
+}
+#li1 {
+  list-style-type: none;
+  letter-spacing: 2px;
+  font-weight: 900;
+  position: relative;
+  top: 13px;
+  left: 14rem;
+}
+#li1 img {
+  position: relative;
+  bottom: 5px;
+}
+.divsection {
+  column-count: 2;
+  background: linear-gradient(to right, #ece6ae, #f0857e);
+}
+
+.divsection #burger {
+  width: 628px;
+}
+#btn {
+  background-color: #f0857e;
+  border: none;
+  width: 200px;
+  padding: 10px;
+  position: relative;
+  left: 2px;
+  right: 5px;
+  top: 50px;
+}
+#div2 {
+  display: block;
+}
+#div2 #h22 {
+  text-align: center;
+  margin-top: 50px;
+}
+#para {
+  padding: 1rem;
+  text-align: justify;
+  position: relative;
+  left: 214px;
+}
+.div3 table #star {
+  width: 170px;
+  height: 150px;
+  position: relative;
+  top: 30px;
+  padding: 2px;
+}
+.div3 table #plate {
+  width: 260px;
+  height: 306px;
+  position: relative;
+  top: 26px;
+}
+
+.div3 table #broz {
+  width: 170px;
+  height: 150px;
+  column-width: 2rem;
+  padding: 2px;
+  position: relative;
+  top: 25px;
+}
+.div3 {
+  background: linear-gradient(to right, #ece6ae, #f0857e);
+}
+table {
+  margin-left: 80px;
+  margin-top: 10px;
+  border-top: black;
+}
+
+#div4 {
+  background-color: #f0857e;
+  width: 30%;
+  height: 200px;
+  position: relative;
+  left: 700px;
+  bottom: 240px;
+  text-align: center;
+  padding: 1rem;
+}
+#div4 #pa {
+  text-align: left;
+  position: relative;
+  bottom: 1px;
+}
+#h11 {
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+#apara {
+  text-align: justify;
+  margin-top: 40px;
+}
+#arrow {
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
