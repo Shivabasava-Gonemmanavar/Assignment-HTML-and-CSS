@@ -3,6 +3,25 @@ body {
   padding: 0;
   background-color: black;
 }
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .mainbox {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+/* For mobile phones: */
+
+@media only screen and (max-width: 500px) {
+  .mainbox,
+  .main,
+  .right {
+    width: 100%;
+  }
+}
 
 main {
   width: 100%;
@@ -84,7 +103,7 @@ main {
   top: 25px;
 }
 .div3 {
-  background: linear-gradient(to right, #ece6ae, #f0857e);
+  background: linear-gradient(to right, #ece6ae, #fa9e97);
 }
 table {
   margin-left: 80px;
